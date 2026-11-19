@@ -1,0 +1,269 @@
+(sciowl) [root@kcs-pcnlcbi-s-tpqkk /dpc-zhouy/zhouy/sciowl_dflash_infer_pack/scripts]$  python score_mol_instructions_new.py --data-path /dpc-zhouy/zhouy/MindSpeed-LLM/internlm/test.jsonl --predictions /dpc-zhouy/zhouy/MindSpeed-LLM/internlm/speed_baseline_predictions.jsonl 
+[15:37:38] WARNING: not removing hydrogen atom without neighbors
+[15:37:38] WARNING: not removing hydrogen atom without neighbors
+[15:37:38] WARNING: not removing hydrogen atom without neighbors
+[15:37:39] WARNING: not removing hydrogen atom without neighbors
+[15:37:49] WARNING: not removing hydrogen atom without neighbors
+[15:37:49] WARNING: not removing hydrogen atom without neighbors
+[15:37:49] WARNING: not removing hydrogen atom without neighbors
+[15:37:49] WARNING: not removing hydrogen atom without neighbors
+[15:37:49] WARNING: not removing hydrogen atom without neighbors
+[15:37:49] WARNING: not removing hydrogen atom without neighbors
+[15:37:49] WARNING: not removing hydrogen atom without neighbors
+[15:37:49] WARNING: not removing hydrogen atom without neighbors
+[15:37:49] WARNING: not removing hydrogen atom without neighbors
+[15:37:49] WARNING: not removing hydrogen atom without neighbors
+[15:37:49] WARNING: not removing hydrogen atom without neighbors
+[15:37:49] WARNING: not removing hydrogen atom without neighbors
+[15:37:49] WARNING: not removing hydrogen atom without neighbors
+[15:37:49] WARNING: not removing hydrogen atom without neighbors
+[15:37:49] WARNING: not removing hydrogen atom without neighbors
+[15:37:49] WARNING: not removing hydrogen atom without neighbors
+[15:37:49] WARNING: not removing hydrogen atom without neighbors
+[15:37:50] WARNING: not removing hydrogen atom without neighbors
+[15:37:50] WARNING: not removing hydrogen atom without neighbors
+[15:37:50] WARNING: not removing hydrogen atom without neighbors
+[15:37:50] WARNING: not removing hydrogen atom without neighbors
+[15:37:50] WARNING: not removing hydrogen atom without neighbors
+[15:37:50] WARNING: not removing hydrogen atom without neighbors
+[15:37:50] WARNING: not removing hydrogen atom without neighbors
+[15:37:50] WARNING: not removing hydrogen atom without neighbors
+[15:37:50] WARNING: not removing hydrogen atom without neighbors
+[15:37:50] WARNING: not removing hydrogen atom without neighbors
+[15:37:50] WARNING: not removing hydrogen atom without neighbors
+[15:37:50] WARNING: not removing hydrogen atom without neighbors
+[15:37:50] WARNING: not removing hydrogen atom without neighbors
+[15:37:50] WARNING: not removing hydrogen atom without neighbors
+[15:37:50] WARNING: not removing hydrogen atom without neighbors
+[15:37:50] WARNING: not removing hydrogen atom without neighbors
+[15:37:50] WARNING: not removing hydrogen atom without neighbors
+[15:37:50] WARNING: not removing hydrogen atom without neighbors
+[15:37:50] WARNING: not removing hydrogen atom without neighbors
+[15:37:50] WARNING: not removing hydrogen atom without neighbors
+Task  Count  Metric                   Native score    Strict score    Valid%
+FS     1000  Morgan Tanimoto x 100         0.2258         0.0000      3.10
+MC     1000  METEOR                        0.0225         0.0225         -
+MG     1000  Morgan Tanimoto x 100         0.0000         0.0000      0.00
+PP     1987  MAE                          61.8227         0.2025         -
+RP     1000  Morgan Tanimoto x 100         0.2937         0.0234      6.10
+RS     1000  Morgan Tanimoto x 100         2.3939         0.0000     13.20
+Saved eval_result/summary_2026-11-19-15-37-38.json, eval_result/summary_2026-11-19-15-37-38.csv, eval_result/scored_predictions_2026-11-19-15-37-38.jsonl
+(sciowl) [root@kcs-pcnlcbi-s-tpqkk /dpc-zhouy/zhouy/sciowl_dflash_infer_pack/scripts]$  python score_mol_instructions_new.py --data-path /dpc-zhouy/zhouy/MindSpeed-LLM/internlm/test.jsonl --predictions /dpc-zhouy/zhouy/MindSpeed-LLM/internlm/speed_dflash_predictions_5.jsonl 
+[15:38:39] WARNING: not removing hydrogen atom without neighbors
+[15:38:39] WARNING: not removing hydrogen atom without neighbors
+[15:38:39] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+[15:38:47] WARNING: not removing hydrogen atom without neighbors
+Task  Count  Metric                   Native score    Strict score    Valid%
+FS     1000  Morgan Tanimoto x 100         0.3615         0.0000      5.70
+MC     1000  METEOR                        0.0358         0.0358         -
+MG     1000  Morgan Tanimoto x 100         0.0000         0.0000      0.00
+PP     1987  MAE                          86.3105         0.1789         -
+RP     1000  Morgan Tanimoto x 100         1.1019         0.1056     18.60
+RS     1000  Morgan Tanimoto x 100         8.3559         0.0000     32.40
+Saved eval_result/summary_2026-11-19-15-38-39.json, eval_result/summary_2026-11-19-15-38-39.csv, eval_result/scored_predictions_2026-11-19-15-38-39.jsonl
+(sciowl) [root@kcs-pcnlcbi-s-tpqkk /dpc-zhouy/zhouy/sciowl_dflash_infer_pack/scripts]$  python score_mol_instructions_new.py --data-path /dpc-zhouy/zhouy/MindSpeed-LLM/internlm/test.jsonl --predictions /dpc-zhouy/zhouy/MindSpeed-LLM/internlm/speed_dflash_predictions_10.jsonl 
+[15:39:12] WARNING: not removing hydrogen atom without neighbors
+[15:39:12] WARNING: not removing hydrogen atom without neighbors
+[15:39:13] WARNING: not removing hydrogen atom without neighbors
+[15:39:13] WARNING: not removing hydrogen atom without neighbors
+[15:39:13] WARNING: not removing hydrogen atom without neighbors
+[15:39:13] WARNING: not removing hydrogen atom without neighbors
+[15:39:13] WARNING: not removing hydrogen atom without neighbors
+[15:39:13] WARNING: not removing hydrogen atom without neighbors
+[15:39:13] WARNING: not removing hydrogen atom without neighbors
+[15:39:13] WARNING: not removing hydrogen atom without neighbors
+[15:39:13] WARNING: not removing hydrogen atom without neighbors
+[15:39:13] WARNING: not removing hydrogen atom without neighbors
+[15:39:13] WARNING: not removing hydrogen atom without neighbors
+[15:39:13] WARNING: not removing hydrogen atom without neighbors
+[15:39:13] WARNING: not removing hydrogen atom without neighbors
+[15:39:13] WARNING: not removing hydrogen atom without neighbors
+[15:39:13] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+[15:39:20] WARNING: not removing hydrogen atom without neighbors
+Task  Count  Metric                   Native score    Strict score    Valid%
+FS     1000  Morgan Tanimoto x 100         0.8712         0.0000      6.60
+MC     1000  METEOR                        0.0341         0.0341         -
+MG     1000  Morgan Tanimoto x 100         0.0000         0.0000      0.00
+PP     1987  MAE                     402721938086.6146         0.1789         -
+RP     1000  Morgan Tanimoto x 100         0.9453         0.0214     17.90
+RS     1000  Morgan Tanimoto x 100         9.0444         0.0000     35.30
+Saved eval_result/summary_2026-11-19-15-39-12.json, eval_result/summary_2026-11-19-15-39-12.csv, eval_result/scored_predictions_2026-11-19-15-39-12.jsonl
+(sciowl) [root@kcs-pcnlcbi-s-tpqkk /dpc-zhouy/zhouy/sciowl_dflash_infer_pack/scripts]$  python score_mol_instructions_new.py --data-path /dpc-zhouy/zhouy/MindSpeed-LLM/internlm/test.jsonl --predictions /dpc-zhouy/zhouy/MindSpeed-LLM/internlm/speed_dflash_predictions_15.jsonl 
+[15:39:28] WARNING: not removing hydrogen atom without neighbors
+[15:39:28] WARNING: not removing hydrogen atom without neighbors
+[15:39:28] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:34] WARNING: not removing hydrogen atom without neighbors
+[15:39:35] WARNING: not removing hydrogen atom without neighbors
+[15:39:35] WARNING: not removing hydrogen atom without neighbors
+[15:39:35] WARNING: not removing hydrogen atom without neighbors
+[15:39:35] WARNING: not removing hydrogen atom without neighbors
+[15:39:35] WARNING: not removing hydrogen atom without neighbors
+[15:39:35] WARNING: not removing hydrogen atom without neighbors
+[15:39:35] WARNING: not removing hydrogen atom without neighbors
+[15:39:35] WARNING: not removing hydrogen atom without neighbors
+[15:39:35] WARNING: not removing hydrogen atom without neighbors
+[15:39:35] WARNING: not removing hydrogen atom without neighbors
+[15:39:35] WARNING: not removing hydrogen atom without neighbors
+[15:39:35] WARNING: not removing hydrogen atom without neighbors
+[15:39:35] WARNING: not removing hydrogen atom without neighbors
+[15:39:35] WARNING: not removing hydrogen atom without neighbors
+[15:39:35] WARNING: not removing hydrogen atom without neighbors
+[15:39:35] WARNING: not removing hydrogen atom without neighbors
+[15:39:35] WARNING: not removing hydrogen atom without neighbors
+[15:39:35] WARNING: not removing hydrogen atom without neighbors
+[15:39:35] WARNING: not removing hydrogen atom without neighbors
+[15:39:35] WARNING: not removing hydrogen atom without neighbors
+[15:39:35] WARNING: not removing hydrogen atom without neighbors
+[15:39:35] WARNING: not removing hydrogen atom without neighbors
+[15:39:35] WARNING: not removing hydrogen atom without neighbors
+[15:39:35] WARNING: not removing hydrogen atom without neighbors
+Task  Count  Metric                   Native score    Strict score    Valid%
+FS     1000  Morgan Tanimoto x 100         0.5911         0.0000      5.40
+MC     1000  METEOR                        0.0328         0.0328         -
+MG     1000  Morgan Tanimoto x 100         0.0000         0.0000      0.00
+PP     1987  MAE                          74.2966         0.1789         -
+RP     1000  Morgan Tanimoto x 100         0.9084         0.0236     16.20
+RS     1000  Morgan Tanimoto x 100         7.4258         0.0000     31.90
+Saved eval_result/summary_2026-11-19-15-39-27.json, eval_result/summary_2026-11-19-15-39-27.csv, eval_result/scored_predictions_2026-11-19-15-39-27.jsonl

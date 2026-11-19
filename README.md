@@ -19,6 +19,8 @@ bash sciowl_dflash_infer_pack/scripts/serve_baseline.sh
 # or
 bash sciowl_dflash_infer_pack/scripts/serve_dflash.sh
 
-bash test_parallel.py --output baseline_result.jsonl
+bash test_parallel.py --output logs/speed_baseline_predictions.jsonl
+
+python score_mol_instructions_new.py --data-path logs/test.jsonl --predictions logs/speed_baseline_predictions.jsonl 
 ```
 
